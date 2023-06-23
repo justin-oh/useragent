@@ -64,7 +64,7 @@ Abstract Class ParserAbstract implements ParserInterface
         return $this->info;
     }
 
-    final private function reset()
+    private function reset()
     {
         $this->browser = array();
         $this->os = array();
